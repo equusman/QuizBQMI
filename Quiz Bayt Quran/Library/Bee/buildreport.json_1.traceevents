@@ -1,0 +1,488 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1697206051270563, "dur": 1080081, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1697206051270847, "dur": 12390, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1697206051283239, "dur": 31329, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1697206051314642, "dur": 610619, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1697206051925264, "dur": 411895, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1697206052337161, "dur": 13481, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1697206052351097, "dur": 18, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1697206051735603, "dur": 160024, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1697206051736810, "dur": 74763, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1697206051875574, "dur": 4831, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1697206051880407, "dur": 15204, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1697206051881160, "dur": 13772, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1697206051901682, "dur": 1431, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1697206051899972, "dur": 3167, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1697206052351210, "dur": 260, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1697206051969614, "dur":1256, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697206051970875, "dur":49, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1697206051970934, "dur":18, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1697206051970952, "dur":300, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1697206051971280, "dur":865, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697206051972145, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697206052319513, "dur":101, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697206052319614, "dur":99, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697206052319713, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697206052319719, "dur":21, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697206052319740, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697206052319743, "dur":24, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697206052319767, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697206052319771, "dur":40, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697206052319811, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697206052319814, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697206052319825, "dur":11, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697206052319836, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697206052319845, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697206052319847, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697206052319854, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697206052319855, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697206052319861, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697206052319873, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697206052319885, "dur":1304, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1697206051971729, "dur":474, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697206051972204, "dur":4425, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697206051976633, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1697206051976809, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697206051978602, "dur":2765, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1697206051981421, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1697206051981543, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697206051981554, "dur":2551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1697206051984166, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1697206051984299, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697206051984307, "dur":1306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1697206051985677, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1697206051985805, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697206051985811, "dur":53929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1697206052039786, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697206052039833, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697206052039841, "dur":57637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697206052097498, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697206052097519, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697206052097527, "dur":1706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697206052099251, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697206052099272, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697206052099279, "dur":2178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697206052101477, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697206052101496, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697206052101565, "dur":1637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697206052103220, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697206052103242, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697206052103250, "dur":1953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697206052105223, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697206052105243, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697206052105249, "dur":2563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697206052107832, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697206052107852, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697206052107860, "dur":2176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697206052110053, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697206052110070, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697206052110076, "dur":2804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697206052112899, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697206052112919, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697206052112926, "dur":1749, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697206052114696, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697206052114721, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697206052114728, "dur":2254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697206052117034, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697206052117156, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697206052117195, "dur":2123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697206052119335, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697206052119353, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697206052119360, "dur":5172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697206052124549, "dur":49999, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697206052174554, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697206052174566, "dur":948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697206052175530, "dur":143966, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1697206051971895, "dur":333, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1697206051972229, "dur":4376, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1697206051976633, "dur":272, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1697206051976908, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1697206052007895, "dur":12151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1697206052020085, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1697206052020108, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1697206052020128, "dur":76529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1697206052096677, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1697206052096697, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1697206052096704, "dur":2157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1697206052098880, "dur":146367, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1697206052245252, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1697206052245261, "dur":975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1697206052246254, "dur":73245, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1697206051971719, "dur":467, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1697206051972187, "dur":4443, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1697206051976633, "dur":269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1697206051976905, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1697206051994719, "dur":14653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1697206052009479, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697206052009505, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1697206052009512, "dur":86492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697206052096027, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697206052096057, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1697206052096066, "dur":1910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697206052097996, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697206052098017, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1697206052098024, "dur":2089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697206052100136, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697206052100157, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1697206052100165, "dur":1758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697206052101944, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697206052101964, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1697206052101971, "dur":2004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697206052103993, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697206052104012, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1697206052104019, "dur":2156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697206052106195, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697206052106216, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1697206052106223, "dur":2177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697206052108420, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697206052108461, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1697206052108469, "dur":2035, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697206052110521, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697206052110546, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1697206052110553, "dur":2300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697206052112873, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697206052112893, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1697206052112902, "dur":1722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697206052114644, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697206052114664, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1697206052114672, "dur":2584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697206052117276, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697206052117295, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1697206052117303, "dur":1454, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697206052118778, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697206052118802, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1697206052118809, "dur":2002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697206052120837, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697206052120861, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1697206052120870, "dur":2869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697206052123760, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697206052123781, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1697206052123789, "dur":3473, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697206052127284, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/StreamingAssets/image/jalan.jpg" }}
+,{ "pid":12345, "tid":3, "ts":1697206052127325, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1697206052127441, "dur":8431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/StreamingAssets/image/jalan.jpg" }}
+,{ "pid":12345, "tid":3, "ts":1697206052135889, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1697206052135928, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1697206052135935, "dur":1488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1697206052137449, "dur":13021, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1697206052150475, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1697206052150486, "dur":1123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1697206052151629, "dur":167876, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697206051971804, "dur":416, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697206051972220, "dur":4403, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697206051976632, "dur":181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1697206051976817, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697206051978682, "dur":2959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1697206051981692, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1697206051981809, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697206051982448, "dur":1727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1697206051984224, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1697206051984340, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697206051984348, "dur":5592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1697206051990025, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1697206051990179, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697206052008288, "dur":50502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1697206052058832, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697206052058863, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697206052058872, "dur":38047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697206052096942, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697206052096966, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697206052096973, "dur":1801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697206052098796, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697206052098818, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697206052098826, "dur":3285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697206052102133, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697206052102168, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697206052102176, "dur":1704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697206052103944, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697206052103965, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697206052103973, "dur":2355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697206052106349, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697206052106368, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697206052106476, "dur":2682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697206052109181, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697206052109200, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697206052109206, "dur":1832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697206052111056, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697206052111074, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697206052111081, "dur":2196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697206052113296, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697206052113315, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697206052113322, "dur":1485, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697206052114825, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697206052114851, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697206052114858, "dur":3482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697206052118361, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697206052118380, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697206052118388, "dur":4060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697206052122475, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697206052122497, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697206052122507, "dur":1908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697206052124433, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/Mono.Data.Sqlite.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697206052124454, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697206052124461, "dur":2331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/Mono.Data.Sqlite.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697206052126821, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/StreamingAssets/image/komputer.jpg" }}
+,{ "pid":12345, "tid":4, "ts":1697206052126845, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697206052127317, "dur":3961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/StreamingAssets/image/komputer.jpg" }}
+,{ "pid":12345, "tid":4, "ts":1697206052131299, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/StreamingAssets/gamequizbaru.sqlite3" }}
+,{ "pid":12345, "tid":4, "ts":1697206052131317, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697206052131325, "dur":4345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/StreamingAssets/gamequizbaru.sqlite3" }}
+,{ "pid":12345, "tid":4, "ts":1697206052135712, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1697206052135741, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697206052135747, "dur":9691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1697206052145458, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1697206052145478, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697206052145484, "dur":1469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1697206052146972, "dur":172538, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1697206051971985, "dur":255, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1697206051972240, "dur":4391, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1697206051976632, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1697206051976809, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1697206051978730, "dur":2596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1697206051981380, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1697206051981496, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1697206051981504, "dur":1683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1697206051983218, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1697206051983339, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1697206051983345, "dur":1363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1697206051984765, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1697206051984883, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1697206051984889, "dur":111123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1697206052096077, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1697206052096114, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1697206052096123, "dur":1897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1697206052098041, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1697206052098063, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1697206052098070, "dur":2246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1697206052100339, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1697206052100364, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1697206052100372, "dur":1983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1697206052102375, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1697206052102400, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1697206052102408, "dur":2052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1697206052104479, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1697206052104500, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1697206052104510, "dur":2053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1697206052106582, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1697206052106600, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1697206052106608, "dur":2269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1697206052108899, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1697206052108919, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1697206052108926, "dur":1978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1697206052110926, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1697206052110948, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1697206052110955, "dur":2710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1697206052113720, "dur":91612, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1697206052205337, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1697206052205365, "dur":1070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1697206052206453, "dur":113051, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697206051972075, "dur":171, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697206051972247, "dur":4384, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697206051976631, "dur":196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1697206051976832, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697206051978694, "dur":3330, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1697206051982074, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1697206051982195, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697206051982380, "dur":1824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1697206051984259, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697206051984404, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697206051984631, "dur":7534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697206051992234, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697206051992277, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697206052008265, "dur":1167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697206052009455, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697206052009486, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697206052009495, "dur":86347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697206052095869, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697206052095899, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697206052095910, "dur":1949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697206052097877, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697206052097894, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697206052097901, "dur":2217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697206052100135, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697206052100157, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697206052100165, "dur":1811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697206052101995, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697206052102018, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697206052102025, "dur":1583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697206052103630, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697206052103653, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697206052103660, "dur":2105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697206052105786, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697206052105809, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697206052105816, "dur":2173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697206052108010, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697206052108032, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697206052108040, "dur":2133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697206052110195, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697206052110215, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697206052110223, "dur":2023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697206052112267, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697206052112291, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697206052112298, "dur":2231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697206052114550, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697206052114573, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697206052114580, "dur":3365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697206052117963, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697206052117984, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697206052117992, "dur":2174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697206052120191, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697206052120213, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697206052120222, "dur":3718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697206052123961, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697206052123981, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697206052123988, "dur":3669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697206052127677, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/StreamingAssets/image/gunung.jpg" }}
+,{ "pid":12345, "tid":6, "ts":1697206052127694, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697206052127703, "dur":3563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/StreamingAssets/image/gunung.jpg" }}
+,{ "pid":12345, "tid":6, "ts":1697206052131287, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/StreamingAssets/image/awan.jpg" }}
+,{ "pid":12345, "tid":6, "ts":1697206052131308, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697206052131318, "dur":3566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/StreamingAssets/image/awan.jpg" }}
+,{ "pid":12345, "tid":6, "ts":1697206052134906, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1697206052134927, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697206052135001, "dur":1199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1697206052136218, "dur":169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":6, "ts":1697206052136391, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697206052136397, "dur":1197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":6, "ts":1697206052137613, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/resources.resource" }}
+,{ "pid":12345, "tid":6, "ts":1697206052137635, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697206052137643, "dur":2453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/resources.resource" }}
+,{ "pid":12345, "tid":6, "ts":1697206052140126, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1697206052140147, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697206052140156, "dur":2145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1697206052142326, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/resources.assets" }}
+,{ "pid":12345, "tid":6, "ts":1697206052142351, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697206052142360, "dur":1094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/resources.assets" }}
+,{ "pid":12345, "tid":6, "ts":1697206052143476, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1697206052143496, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697206052143503, "dur":966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1697206052144490, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1697206052144534, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697206052144542, "dur":1087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1697206052145646, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1697206052145827, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697206052145834, "dur":1180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1697206052147033, "dur":172466, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697206051972164, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697206051972165, "dur":4439, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697206051976633, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":7, "ts":1697206051976637, "dur":169, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697206051976812, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/app.info" }}
+,{ "pid":12345, "tid":7, "ts":1697206051976816, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697206051978067, "dur":2816, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/app.info" }}
+,{ "pid":12345, "tid":7, "ts":1697206051980887, "dur":171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1697206051981061, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697206051981204, "dur":1473, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1697206051982730, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1697206051982852, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697206051982924, "dur":1404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1697206051984376, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697206051984507, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697206051984669, "dur":23837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697206052008575, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697206052008627, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697206052008742, "dur":1089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697206052009850, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697206052009877, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697206052009883, "dur":87242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697206052097151, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697206052097176, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697206052097182, "dur":2006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697206052099233, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697206052099260, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697206052099268, "dur":1549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697206052100838, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697206052100866, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697206052100874, "dur":1906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697206052102798, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697206052102817, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697206052102824, "dur":1964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697206052104809, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697206052104834, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697206052104841, "dur":2706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697206052107567, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697206052107588, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697206052107596, "dur":2335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697206052109952, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697206052109976, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697206052109984, "dur":1912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697206052111915, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697206052111943, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697206052111950, "dur":2139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697206052114111, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697206052114134, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697206052114142, "dur":1424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697206052115586, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697206052115606, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697206052115614, "dur":2014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697206052117647, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697206052117685, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697206052117692, "dur":1297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697206052119008, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697206052119027, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697206052119056, "dur":2715, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697206052121792, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697206052121811, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697206052121821, "dur":1693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697206052123540, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697206052123562, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697206052123572, "dur":1335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697206052124932, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Plugins/x86_64/sqlite3.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697206052124964, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697206052125642, "dur":46686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Plugins/x86_64/sqlite3.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697206052172354, "dur":147143, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1697206051972252, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1697206051972253, "dur":4359, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1697206051976632, "dur":169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1697206051976809, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1697206051978947, "dur":2409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1697206051981412, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1697206051981542, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1697206051981550, "dur":2420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1697206051984033, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1697206051984159, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1697206051984169, "dur":2063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1697206051986267, "dur":525, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran.exe" }}
+,{ "pid":12345, "tid":8, "ts":1697206051986794, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1697206051986798, "dur":22649, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran.exe" }}
+,{ "pid":12345, "tid":8, "ts":1697206052009467, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1697206052009493, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1697206052009502, "dur":86650, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1697206052096175, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1697206052096198, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1697206052096206, "dur":2116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1697206052098341, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1697206052098366, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1697206052098374, "dur":2450, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1697206052100846, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1697206052100870, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1697206052100880, "dur":2032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1697206052102929, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1697206052102998, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1697206052103006, "dur":1827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1697206052104852, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1697206052104872, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1697206052104879, "dur":2423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1697206052107322, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1697206052107344, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1697206052107352, "dur":2292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1697206052109662, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1697206052109679, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1697206052109686, "dur":2018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1697206052111731, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1697206052111754, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1697206052111763, "dur":1975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1697206052113782, "dur":204570, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1697206052318357, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1697206052318366, "dur":1093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Music/New folder (2)/revisi button/Quiz bayt quran_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1697206052319477, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":8, "ts":1697206052319478, "dur":1, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697206052322465, "dur":2155, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1697206052351525, "dur": 691, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1697206052351084, "dur": 1149, "ph": "X", "name": "Write chrome-trace events", "args": {} },
